@@ -12,7 +12,16 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="sunrise" />
         </main>
-        <footer className="App-footer">Coded by Ana Teresa Branco</footer>
+        <footer className="App-footer">
+          This project coded by{" "}
+          <a href="https://stellular-licorice-7bcef0.netlify.app">
+            Ana Teresa Branco
+          </a>{" "}
+          is open-sourced on{" "}
+          <a href="https://github.com/atbranco/dictionary-project">GitHub</a>{" "}
+          and hosted on{" "}
+          <a href="https://cozy-licorice-84b89b.netlify.app/">Netlify</a>
+        </footer>
       </div>
     </div>
   );
